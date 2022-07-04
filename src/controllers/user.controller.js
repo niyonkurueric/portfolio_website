@@ -7,7 +7,7 @@ export class userController{
             const existUser=await userExist(req.body.email);
        if(existUser)
        {
-        res.status(400).send({message:"the user are exist"});
+        res.status(400).send({message:"the user are exist account "});
        }
        else{
         const userInfo={
