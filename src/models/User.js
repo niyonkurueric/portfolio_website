@@ -7,7 +7,8 @@ const opts = {
     }
 };
 const schema = mongoose.Schema({
-        username: String,
+        firstname: {type:String,require:true},
+        lastname: {type:String,require:true},
         email:{type:String,required:true },
         password:{type:String,require:true},
     },
