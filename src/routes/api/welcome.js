@@ -1,8 +1,8 @@
-import express from 'express'
-import { welcome } from '../../controllers/welcome'
+import express from "express";
+import { welcome } from "../../controllers/welcome";
 
-const route = express.Router()
+const route = express.Router();
 
-route.get('/', welcome)
+route.get("/", welcome);
 
-export default route
+export default route;
